@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sistema-di"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.30.0"
+pandas = "^2.1.4"
+openpyxl = "^3.1.2"
+xlrd = "^2.0.1"
+xlsxwriter = "^3.1.9"
+streamlit-option-menu = "^0.3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
