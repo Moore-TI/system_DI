@@ -6,6 +6,7 @@ from selecoes import run_selecoes_app
 from tratar_balancetes import run_tratar_balancetes_app
 from gerar_balancetes import run_gerar_balancetes_app
 from streamlit_option_menu import option_menu
+from streamlit_extras.app_logo import add_logo
 
 
 # A chamada para set_page_config deve ser a primeira
@@ -15,6 +16,7 @@ st.set_page_config(page_title="Sistema DI", layout="wide")
 def main():
     # Sidebar para seleção da aplicação
     with st.sidebar:
+        st.image("img_logo.jfif", width=100)    
         st.sidebar.title("Menu")
         app_choice = option_menu(
             "Menu",

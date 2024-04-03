@@ -2,3 +2,5 @@ files/
 arquivo/
 tests/
 __pychache__/
+.venv/
+venv_sistemaDI/
